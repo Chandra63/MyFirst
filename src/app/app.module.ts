@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
+import { RouletteComponent } from './roulette/roulette.component';
 
 
 @NgModule({
@@ -11,6 +12,7 @@ import { TestComponent } from './test/test.component';
   [
     AppComponent,
     TestComponent,
+    RouletteComponent,
   ],
   imports: [
     BrowserModule

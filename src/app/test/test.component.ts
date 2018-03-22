@@ -2,9 +2,9 @@
   import { Window } from 'selenium-webdriver';
 
   @Component({
-    selector: '[app-test]',
+    selector: 'app-test',
     template: `<div>
-    Hello {{name}}
+    Hi {{name}}
     <h2>{{2+2}}</h2>
     <h2>{{"welcome to this " + name}}</h2>
     <h2>{{name.length}}</h2>
